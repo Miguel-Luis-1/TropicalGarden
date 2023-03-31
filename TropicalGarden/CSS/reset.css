@@ -7,5 +7,6 @@
   vertical-align: baseline;
   list-style: none;
   text-decoration: none;
+  color: initial;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Share+Tech&display=swap');
