@@ -25,21 +25,33 @@
 
 
 
-  .campo-de-produto{
-    overflow: hidden;
-    width: 150px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: aliceblue;
-    margin: auto;
+
+
+
+  .container-carousel {
+    margin-top: 50px;
   }
- .carousel-produtos-inner{
-    overflow: hidden;
+  .carousel-inner {
     display: flex;
     width: 1500px;
     height: 300px;
     transition: transform 0.3s ease;
- }
- .carouselprodutos:hover .carousel-produtos-inner {
+  }
+  
+  .container-item {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .carousel:hover .carousel-inner {
     transform: translateX(-10px);
   }
+
+
+
+ 
