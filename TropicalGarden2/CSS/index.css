@@ -22,6 +22,9 @@ a{
     border: 2px solid #0000;
     border-radius: 5px;
 }
+.ancora-img{
+  margin-top: 15px;
+}
 
 
 
@@ -35,7 +38,7 @@ a{
   
   .carousel-inner {
     display: flex;
-    width: 1500px;
+    width: 2500px;
     height: 300px;
     transition: transform 0.3s ease;
     gap: 50px;
