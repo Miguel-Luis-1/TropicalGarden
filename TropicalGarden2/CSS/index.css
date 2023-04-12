@@ -5,6 +5,9 @@
 body{
     background-color: #E2EED3;
 }
+
+/*Navbar */
+
 nav{
     background-color: #2E6665;
     display: flex;
@@ -30,6 +33,7 @@ a{
 }
 
 
+/*Primeiro carrossel */
 
 
 .carouselprodutos {
@@ -91,6 +95,7 @@ a{
     box-sizing: border-box;
     margin-left: auto;
   }
+
 
 
 
