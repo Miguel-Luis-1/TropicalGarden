@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
 body{
     background-color: #E2EED3;
 }
@@ -46,18 +49,40 @@ a{
   }
   
   .carousel-inner div {
-    width: 1000px;
-    height: 200px;
+    width: 700px;
+    height: 300px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 30px;
   }
-  
   .carouselprodutos:hover .carousel-inner {
     transform: translateX(-10px);
   }
   .itens{
     display: flex;
+    padding: 0px;
     align-items: center;
-    padding: 10px;
+    padding-right: 50px;
+    gap: 80px;
   }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .titulo{
+    color: #B21D61;
+    font-size: 30px;
+  }
+  .button-details {
+    display: flex;
+    border: 3px solid #2E6665;
+    color: #2E6665;
+    justify-content: flex-end;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+  }
+
+
 
