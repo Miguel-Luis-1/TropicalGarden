@@ -33,8 +33,8 @@ a{
 
 
 .carouselprodutos {
-    overflow: hidden;
-    width: 100%;
+    overflow: hidden;/* Permite que o carrosel sai da pagina sem que apreça uma bara de rolagem horizontal */
+    width: 100%; 
     height: 500px;
     margin: auto; /* centraliza horizontalmente e verticalmente */
   }
@@ -71,6 +71,14 @@ a{
   }
   .titulo{
     color: #B21D61;
+    font-size: 30px;
+  }
+  .titulo2{
+    color: #DF959A;
+    font-size: 30px;
+  }
+  .titulo3{
+    color: #A79168;
     font-size: 30px;
   }
   .button-details {
