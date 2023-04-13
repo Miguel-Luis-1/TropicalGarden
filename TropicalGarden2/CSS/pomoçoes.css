@@ -32,13 +32,25 @@ nav a{
   margin-top: 15px;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Filtros */
 
   
   select {
+    margin-top: 20px;
     padding: 5px;
+    padding-right: 1000px;
     font-size: 16px;
+    border-radius: 10px;
+    border: solid 1px #2E6665;
   }
+
+
   
 
 /* protudos */
@@ -109,12 +121,13 @@ nav a{
   }
 
   /*Footer*/
-footer li a{
+
+    footer li a{
     display: flex;
     align-items: center;
     padding: 10px;
-}
-footer p{
+    }
+    footer p{
     color: #fff;
-}
+    }   
  
