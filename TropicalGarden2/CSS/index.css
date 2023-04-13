@@ -96,6 +96,17 @@ a{
     margin-left: auto;
   }
 
+  /*Footer*/
+footer li a{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+footer p{
+  color: #fff;
+}
+
+
 
 
 
