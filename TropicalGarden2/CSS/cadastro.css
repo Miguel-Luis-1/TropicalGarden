@@ -5,6 +5,7 @@
 body{
    background-image: url(../IMG/background.png);
    background-size: cover; /* ajusta a imagem para cobrir todo o corpo */
+   margin-right: 0;
 }
 
 /*Navbar */
@@ -17,7 +18,7 @@ nav{
     padding-top: 5px;
     font-family: 'Poppins', sans-serif;
 }
-a{
+nav a{
     color: #fff;
 }
 .ancora{
@@ -34,13 +35,68 @@ a{
 }
 
 /*Campo de cadastro */
+
 main{
     display: flex;
     justify-content: flex-end;
+    margin-top: 10%;
+    margin-right: 10%;
 }
-.cadastro{
-    width: 300px;
-    height: 500px;
-    border-radius: 20px;
-    background-color: #fff;
-}
+.cadastro {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cadastro form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .cadastro form input[type="text"],
+  .cadastro form input[type="email"],
+  .cadastro form input[type="password"],
+  .cadastro form input[type="date"],
+  .cadastro form label {
+    border: #38383877 solid 2px;
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .cadastro form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .cadastro form button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2AAF14;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cadastro p {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /*Footer*/
+
+
+ 
