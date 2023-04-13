@@ -1,0 +1,46 @@
+#itens{
+    margin: 50px;
+}
+#itens .produto{
+    width: 210px;
+    height: 303px;
+    background-color: #fafafa;
+    border-radius: 15px;
+}
+#itens .produto img{
+    margin-left: 12px;
+    margin-top: 15px;
+    height: 60%;
+}
+.nome_produto{
+    font-size: 14px;
+    justify-items: right;
+    margin-left: 5px;
+}
+.preço{
+    color: #2AAF14;
+}
+.parcela{
+    font-size: 10px;
+}
+.details{
+    width: 40px;
+    color: #2E6665;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border-color: #2E6665;
+    border: #2E6665 solid 0.4px ;
+    margin-left: 6px;
+}
+.details:hover{
+    color: #fafafa;
+    background-color: #2E6665;
+}
+.preço,.parcela{
+    text-align: right;
+    margin-right: 4px;
+}
+.produto:hover{
+    box-shadow:  4px 4px rgba(132, 132, 132, 0.2)
+}
+ 
