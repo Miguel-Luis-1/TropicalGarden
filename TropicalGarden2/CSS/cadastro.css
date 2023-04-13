@@ -41,6 +41,10 @@ main{
    justify-content: flex-end;
     margin-top: 10%;
     margin-right: 10%;
+    gap: 500px;
+}
+.texto{
+  margin-top: -5%;
 }
 .cadastro {
     width: 400px;

@@ -16,7 +16,7 @@ nav{
     padding-top: 5px;
     font-family: 'Poppins', sans-serif;
 }
-a{
+nav a{
     color: #fff;
 }
 .ancora{
@@ -32,74 +32,18 @@ a{
   margin-top: 15px;
 }
 
+/* Filtros */
 
-/*Primeiro carrossel */
-
-
-.carouselprodutos {
-    overflow: hidden;/* Permite que o carrosel sai da pagina sem que apreça uma bara de rolagem horizontal */
-    width: 100%; 
-    height: 500px;
-    margin: auto; /* centraliza horizontalmente e verticalmente */
+  
+  select {
+    padding: 5px;
+    font-size: 16px;
   }
   
-  .carousel-inner {
-    display: flex;
-    width: 2500px;
-    height: 300px;
-    transition: transform 0.3s ease;
-    gap: 50px;
-    margin-top: 5%;
-  }
-  
-  .carousel-inner div {
-    width: 700px;
-    height: 300px;
-    background-color: #fff;
-    border-radius: 30px;
-  }
-  .carouselprodutos:hover .carousel-inner {
-    transform: translateX(-10px);
-  }
-  .itens{
-    display: flex;
-    padding: 0px;
-    align-items: center;
-    padding-right: 50px;
-    gap: 80px;
-  }
-  .conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .titulo{
-    color: #B21D61;
-    font-size: 30px;
-  }
-  .titulo2{
-    color: #DF959A;
-    font-size: 30px;
-  }
-  .titulo3{
-    color: #A79168;
-    font-size: 30px;
-  }
-  .button-details {
-    display: flex;
-    border: 3px solid #2E6665;
-    color: #2E6665;
-    justify-content: flex-end;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-left: auto;
-  }
 
+/* protudos */
 
-  /* protudos */
-
-  .product-container {
+.product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -166,15 +110,11 @@ a{
 
   /*Footer*/
 footer li a{
-  display: flex;
-  align-items: center;
-  padding: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 footer p{
-  color: #fff;
+    color: #fff;
 }
-
-
-
-
-
+ 
