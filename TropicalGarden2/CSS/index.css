@@ -108,8 +108,8 @@ a{
   .product {
     display: flex;
     flex-direction: column;
-    width: 210px;
-    height: 330px;
+    width: 180px;
+    height: 290px;
     margin: 20px;
     background-color: #fff;
     text-align: center;
@@ -151,7 +151,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 45%;
+    gap: 30%;
   }
 
   .parte-inferior p{
@@ -160,9 +160,10 @@ a{
   }
 
   .text-juros{
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: 10px;
   }
+
 
   /*Footer*/
 footer li a{
@@ -173,7 +174,6 @@ footer li a{
 footer p{
   color: #fff;
 }
-
 
 
 
