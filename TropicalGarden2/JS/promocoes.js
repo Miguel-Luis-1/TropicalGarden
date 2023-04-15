@@ -1,5 +1,4 @@
-const filterSelect = document.getElementById("filter-select");
-filterSelect.addEventListener("change", (event) => {
-  const selectedValue = event.target.value;
-  // Use o valor selecionado para filtrar as flores no seu e-commerce
-});
+function toggleFilters() {
+  const filters = document.querySelector('.filter-content');
+  filters.style.display = filters.style.display === 'block' ? 'none' : 'block';
+}

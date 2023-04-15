@@ -5,7 +5,7 @@
 body{
    background-image: url(../IMG/background.png);
    background-size: cover; /* ajusta a imagem para cobrir todo o corpo */
-   margin-right: 0;
+   margin: auto;
 }
 
 /*Navbar */
@@ -38,7 +38,7 @@ nav a{
 
 main{
     display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
     margin-top: 10%;
     margin-right: 10%;
     gap: 500px;
@@ -74,7 +74,7 @@ main{
     width: 75%;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 16px;
     margin-top: 10px;
   }
@@ -85,7 +85,7 @@ main{
   
   .cadastro form button[type="submit"] {
     display: block;
-    margin-top: 20px;
+    margin-left:34%;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -93,6 +93,7 @@ main{
     color: #000;
     font-size: 16px;
     cursor: pointer;
+    
   }
   
   .cadastro p {
