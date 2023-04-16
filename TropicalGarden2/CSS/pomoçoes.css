@@ -71,6 +71,23 @@ main{
 }
 
 
+td label{
+  color: #2E6665;
+  font-size: 15px;
+  padding-left: 50px;
+}
+
+
+th {
+  font-size: 20px ;
+  color: #2E6665;
+  padding-left: 20px;
+  border-bottom: 1px solid #2E6665;
+}
+
+
+
+
 
 
 /* protudos */
