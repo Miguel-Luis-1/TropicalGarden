@@ -35,68 +35,22 @@ nav a{
 main{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-
-/* Filtros */
-
-  
-.filter-btn {
-  background-color: #fff;
-  border: none;
-  color: #2E6665;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border: #2E6665 1px solid;
-  border-radius: 15px;
-  padding-right: 1000px;
-}
-
-.filter-content {
-  padding: 20px;
-  border: #2E6665 1px solid;
-  background-color: #fff;
-}
-
-.filter-content table{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-
-
-td label{
-  color: #2E6665;
-  font-size: 15px;
-  padding-left: 50px;
-}
-
-
-th {
-  font-size: 20px ;
-  color: #2E6665;
-  padding-left: 20px;
-  border-bottom: 1px solid #2E6665;
-}
-
-
-
 
 
 
 /* protudos */
-
+main h1{
+   color: #884A37;
+   font-size: 25px;
+   margin-top: 5%;
+}
 main{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 15%;
+  
 }
 .product-container {
   display: flex;

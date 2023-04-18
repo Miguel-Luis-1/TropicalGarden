@@ -41,6 +41,7 @@ main{
     justify-content: flex-end;
     margin-top: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
 }
 .text1{
   margin-top: -100px;
@@ -63,6 +64,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 20px;
   }
 
   .cadastro form input[type="email"],
@@ -78,7 +80,7 @@ main{
    
   .cadastro form button[type="submit"] {
     display: block;
-    margin-left:34%;
+    margin-left:40%;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -93,7 +95,7 @@ main{
    margin-right: 40%;
   }
   .cadastro p a{
-    margin-top: 20px;
+
     color: #0057FF;
   
   }
