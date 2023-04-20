@@ -4,25 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tropical Garden</title>
 </head>
 <body>
-    <section class="Formulario">
-        <form action="">
-            <input type="text" placeholder="Nome da flor">
-            <div>
-            <input type="image" src="../IMG/upload_img.png">
+    <nav>
+        <li><a href="../HTML/home_pageADM.html"><img src="../IMG/logo.png" alt="Logo" width="80" height="80"></a></li>
+              <li class="ancora"><a href="../HTML/home_pageADM.html">Produtos à venda</a></li>
+              <li class="ancora"><a href="../HTML/historico_ADM.html">Histórico</a></li>
+              <li class="ancora"><a href="../HTML/publicacoes.html">Publicar</a></li>
+              <li><button type="submit"> <a href="../HTML/adiconar_Produto.html">Adicionar produto</a></button></li>
+              <li class="ancora-img"><a href="./Cadastro.html"><img src="../IMG/Usuario.png" alt="Usuário" width="50" height="50"></a></li>
+      </nav>
+    <main>
+        <section class="conteudo">
+            <div class="dados-texto">
+                <form action="">
+                    <input type="text" placeholder="Nome da flor" required>
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Descrição" required></textarea>
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Dicas" required></textarea>
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Solo" required></textarea>
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Clima" required></textarea>
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Iluminação" required></textarea>
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Rega" required></textarea>
+                    <div class="buttons">
+                        <button class="salvar" type="submit">Salvar</button>
+                        <button class="excluir">Excluir publicação</button>
+                    </div>
+
+                </form>
+                    
             </div>
-            <input type="text" placeholder="descrição">
-            <input type="text" placeholder="Dicas">
-            <input type="text" placeholder="Solo">
-            <input type="text" placeholder="Clima">
-            <input type="text" placeholder="Iluminação">
-            <input type="text" placeholder="Rega">
-        </form>
-        <button type="submit">Salvar</button>
-        <button type="submit" class="excluir">excluir publicação</button>
-    </section>
+            <div class="imagem">
+                <div id="upload-form1">
+                        <input type="file" id="file-input" name="image">
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    
     <footer>
         <nav class="footer"><!-- Campo do footer-->
             <li>
@@ -38,6 +59,10 @@
                 <a href=""><img src="../IMG/telefone-logo.png" width="40" height="40"  alt=""> <p>(81) 98597 - 0461</p></a>
             </li>
         </nav>
+
+        <link rel="stylesheet" href="../CSS/editar_publicacao.css">
+        <link rel="stylesheet" href="../CSS/reset.css">
+
     </footer>
 </body>
 </html>
