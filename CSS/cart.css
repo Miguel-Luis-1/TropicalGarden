@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #E2EED3;
+}
+
+/*Navbar */
+
+nav{
+    background-color: #2E6665;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    color: #fff;
+}
+.ancora{
+    margin-top: 30px;
+}
+.barra-de-pesquisa{
+    margin-top: 25px;
+    padding: 6px;
+    border: 2px solid #0000;
+    border-radius: 5px;
+}
+.ancora-img{
+  margin-top: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* protudos */
+main h1{
+   color: #884A37;
+   font-size: 25px;
+   margin-top: 5%;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15%;
+  
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-bottom: 10%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 290px;
+  margin: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-weight: bold;
+}
+
+.product button {
+
+  padding: 5px;
+  border: 1px solid #2E6665;
+  border-radius: 5px;
+  color: #2E6665;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .product {
+    width: 45%;
+  }
+}
+
+.parte-inferior{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30%;
+}
+
+.parte-inferior p{
+  font-size: 10px;
+  color: #2AAF14;
+}
+
+.text-juros{
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+
+  /*Footer*/
+
+    footer li a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    }
+    footer p{
+    color: #fff;
+    }   
+ 

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #E2EED3;
+}
+
+
+/*Navbar */
+
+nav{
+    background-color: #2E6665;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #fff;
+}
+.ancora{
+    margin-top: 30px;
+}
+.barra-de-pesquisa{
+    margin-top: 25px;
+    padding: 6px;
+    border: 2px solid #0000;
+    border-radius: 5px;
+}
+.ancora-img{
+  margin-top: 15px;
+}
+
+/* Campo principal */
+
+  main{
+    margin: 10%;
+    margin-bottom: 25%;
+  }
+  h1{
+    color: #884A37;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+ .conteudo{
+    display: flex;
+    flex-direction: column;
+ }
+ .conteudo p{
+    color: rgba(73, 106, 106, 0.76);
+    font-size: 20px;
+ }
+ .topicos{
+    list-style: decimal;
+    color: rgba(73, 106, 106, 0.76);
+    font-size: 20px;
+ }
+ .dicas1{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    border: #2E6665 solid 2px;
+    gap: 20px;
+ }
+
+ .secao1{
+    display: flex;
+    align-items: center;
+ }
+
+  /*Footer*/
+footer li a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+footer p{
+    color: #fff;
+}
+ 
