@@ -4,44 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tropical Garden</title>
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="../index.html"><img src="../IMG/logo.png" alt="Logo" width="80" height="80"></a></li>
+
+            <li><a href="../HTML/home_pageADM.html"><img src="../IMG/logo.png" alt="Logo" width="80" height="80"></a></li>
             <li class="ancora"><a href="#">Produtos à venda</a></li>
             <li class="ancora"><a href="#">Histórico</a></li>
             <li class="ancora"><a href="#">Publicar</a></li>
-            <li><button type="submit">Adicionar produto</button></li>
+            <li><button type="submit"> <a href="../HTML/adiconar_Produto.html">Adicionar produto</a></button></li>
             <li class="ancora-img"><a href="./Cadastro.html"><img src="../IMG/Usuario.png" alt="Usuário" width="50" height="50"></a></li>
-        </ul>
+
     </nav>
     <section class="editar">
-        <div>
-            <input type="image" src="../IMG/upload_img.png">
-            <p>Adicione uma foto<br>principal</p>
+        <form action="">
+            <div class="secao1">
+                <div>
+                    <div id="upload-form1">
+                        <input type="file" id="file-input" name="image">
+                    </div>
+                </div>
+                <div>
+                    <form action="">
+                        <ul>
+                            <li><input type="text" placeholder="Nome do produto"></li>
+                            <li><input type="number" placeholder="Preço em R$"></li>
+                            <li><select name="select" >
+                                <option value="orquideas">Orquidea</option>
+                                <option value="Astromélia">Astromélia</option>
+                            </select></li>
+                        </ul>
+                    </form>
+                </div>
+                <div>
+            </div>
         </div>
-        <div>
-            <form action="">
-                <ul>
-                    <li><input type="text"></li>
-                    <li><input type="number"></li>
-                    <li><select name="select">
-                        <option value="orquideas">Orquidea</option>
-                        <option value="Astromélia">Astromélia</option>
-                    </select></li>
-                </ul>
-            </form>
+        <div class="secao2">
+            <div id="upload-form2">
+                <input type="file" id="file-input" name="image">
+            </div>
         </div>
-        <div>
-            <input type="image" src="../IMG/upload_img.png">
-            <p>Adicione até 4 fotos para serem exibidas</p>
-        </div>
+        
         <textarea name="" id="" cols="20" rows="10" placeholder="Descrição do seu iten"></textarea>
         
-        <input type="number" placeholder="quantidade de produtos ">
-        <button type="submit">Adicionar</button>
+        <div class="secao3">
+            <input type="number" placeholder="Quantidade em estoque">
+            <button type="submit" class="Editar">Adicionar</button>
+        </div>
+        </form>
     </section>
     <footer>
         <nav class="footer"><!-- Campo do footer-->
@@ -58,6 +69,11 @@
                 <a href=""><img src="../IMG/telefone-logo.png" width="40" height="40"  alt=""> <p>(81) 98597 - 0461</p></a>
             </li>
         </nav>
+
+        <link rel="stylesheet" href="../CSS/reset.css">
+        <link rel="stylesheet" href="../CSS/adicionar_Produto.css">
+        <script src="../JS/editar_Produto.js" ></script>
+
     </footer>
 </body>
 </html>
