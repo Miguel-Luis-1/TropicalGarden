@@ -19,3 +19,11 @@ carouselNext.addEventListener('click', () => {
   }
   carouselImages.style.transform = `translateX(${currentPosition}px)`;
 });
+function toggleCartButton(button) {
+  var buttonText = button.getElementsByTagName('a')[0];
+  if (buttonText.innerHTML === '+ Adicionar ao carrinho') {
+    buttonText.innerHTML = '- Remover do carrinho';
+  } else {
+    buttonText.innerHTML = '+ Adicionar ao carrinho';
+  }
+}
