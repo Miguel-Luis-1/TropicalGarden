@@ -109,8 +109,17 @@ textarea{
     background-color: #2AAF14;
     color: #fff;
 }
- 
-  
+.input-inicial{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
   
 
 

@@ -11,50 +11,54 @@
 
             <li><a href="../HTML/home_pageADM.html"><img src="../IMG/logo.png" alt="Logo" width="80" height="80"></a></li>
             <li class="ancora"><a href="../HTML/home_pageADM.html">Produtos à venda</a></li>
-            <li class="ancora"><a href="../HTML/publicacoes.html">Histórico</a></li>
+            <li class="ancora"><a href="../HTML/historico_ADM.html">Histórico</a></li>
             <li class="ancora"><a href="../HTML/publicacoes.html">Publicar</a></li>
             <li><button type="submit"> <a href="../HTML/adiconar_Produto.html">Adicionar produto</a></button></li>
             <li class="ancora-img"><a href="../HTML/usuario_ADM.html"><img src="../IMG/Usuario.png" alt="Usuário" width="50" height="50"></a></li>
 
     </nav>
-    <section class="editar">
-        <form action="">
-            <div class="secao1">
-                <div>
-                    <div id="upload-form1">
-                        <input type="file" id="file-input" name="image">
-                    </div>
+<section class="editar">
+    <form id="formAdicionar" action="">
+        <div class="secao1">
+            <div>
+                <div id="upload-form1">
+                    <input type="file" id="file-input" name="image">
                 </div>
-                <div>
-                    <form action="">
-                        <ul>
-                            <li><input type="text" placeholder="white phalaenopsis orchids"></li>
-                            <li><input type="number" placeholder="R$ 159,90"></li>
-                            <li><select name="select" >
-                                <option value="orquideas">Orquidea</option>
-                                <option value="Astromélia">Astromélia</option>
-                            </select></li>
-                        </ul>
-                    </form>
-                </div>
-                <div>
+                
             </div>
-        </div>
-        <div class="secao2">
-            <div id="upload-form2">
-                <input type="file" id="file-input" name="image">
+            <div>
+                
+                <section class="input-inicial">
+                    
+                    <input type="text" id="nomeProduto" placeholder="Nome do produto" required></li>
+                    <input type="number" id="precoProduto" placeholder="Preço em R$" required></li>
+                    <select id="categoriaProduto" name="select" required>
+                            <option value="orquideas">Orquidea</option>
+                            <option value="Astromélia">Astromélia</option>
+                    </select>
+
+                </section>
+                        
             </div>
+            <div>
         </div>
-        
-        <textarea name="" id="" cols="20" rows="10" placeholder="Descrição do seu iten"></textarea>
-        
-        <div class="secao3">
-            <input type="number" placeholder="Quantidade em estoque">
-            <button type="submit" class="Excluir">Excluir produto</button>
-            <button type="submit" class="Editar">Editar</button>
+    </div>
+    <div class="secao2">
+        <div id="upload-form2">
+            <input type="file" id="file-input" name="image">
         </div>
-        </form>
-    </section>
+    </div>
+
+    <textarea id="descricaoProduto" name="" cols="20" rows="10" placeholder="Descrição do seu item" required></textarea>
+    <div class="secao3">
+        <input type="number" id="quantidadeProduto" placeholder="Quantidade em estoque" required>
+        <button type="submit" class="Editar" id="editarButton">Editar</button>
+        <button type="button" class="Excluir" id="excluirButton">Excluir Produto</button>
+        
+    </div>
+    </form>
+</section>
+
     <footer>
         <nav class="footer"><!-- Campo do footer-->
             <li>
@@ -72,8 +76,8 @@
         </nav>
 
         <link rel="stylesheet" href="../CSS/reset.css">
-        <link rel="stylesheet" href="../CSS/editar_produto.css">
-        <script src="../JS/editar_Produto.js" ></script>
+        <link rel="stylesheet" href="../CSS/adicionar_Produto.css">
+        <script src="../JS/adicionar_Produto.js" ></script>
 
     </footer>
 </body>
