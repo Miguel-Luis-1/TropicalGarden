@@ -19,3 +19,11 @@ carouselNext.addEventListener('click', () => {
   }
   carouselImages.style.transform = `translateX(${currentPosition}px)`;
 });
+function toggleCartButton(button) {
+  var buttonText = button.getElementsByTagName('a')[0];
+  if (buttonText.innerHTML === '+ Add to cart') {
+    buttonText.innerHTML = '- Remove from cart';
+  } else {
+    buttonText.innerHTML = '+ Add to cart';
+  }
+}

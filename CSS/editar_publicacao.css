@@ -8,25 +8,41 @@ body{
 
 /*Navbar */
 
-nav{
+nav {
+    width: 100%;
     background-color: #2E6665;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav>li {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding-top: 5px;
-    font-family: 'Poppins', sans-serif;
+    width: clamp(50px, 10%, 120px);
+
 }
-nav a{
+
+nav>li>a {
+    font-size: clamp(8px, 2vw, 16px);
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
     color: #fff;
 }
-nav button{
+
+nav button {
     padding: 5px;
     border-radius: 10px;
     background-color: rgba(72, 217, 48, 1);
     border: #fff solid 2px;
 }
-
 main{
    margin: 10%;
 }
@@ -34,18 +50,24 @@ main{
 /* Conteudo principal */
 
 .conteudo{
+    flex-wrap: wrap-reverse;
     display: flex;
     justify-content: center;
     gap: 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 .dados-texto form{
     display: flex;
     flex-direction: column;
     gap: 10px;
+   
 }
+.dados-texto{
+width: 60%}
 .dados-texto textarea, input{
     padding: 10px;
-    width: 500px;
+    width: 100%;
     height: 50px;
     border-radius: 5px;
     border: #000 solid 1px;
@@ -86,18 +108,46 @@ main{
     border-radius: 10px;
   }
   
-  
+.imagem{
+    width: 20%;
+}
   
   
   
   /*Footer*/
+.footer {
+    width: 100%;
+    height: 100%;
 
-  footer li a{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer>nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer>nav>li {
+    width: 100px;
+}
+
+.footer>li {
+    width: clamp(80px, 100%, 180px);
+}
+
+.footer li a {
+    display: flex;
+    width: 100%;
     align-items: center;
     padding: 10px;
-    }
-    footer p{
+
+}
+
+.footer p {
+    font-size: clamp(10px, 2vw, 17px);
     color: #fff;
-    }   
- 
+    white-space: nowrap;
+}

@@ -17,43 +17,46 @@
             <li class="ancora-img"><a href="../HTML/usuario_ADM.html"><img src="../IMG/Usuario.png" alt="Usuário" width="50" height="50"></a></li>
 
     </nav>
-    <section class="editar">
-        <form action="">
-            <div class="secao1">
-                <div>
-                    <div id="upload-form1">
-                        <input type="file" id="file-input" name="image">
-                    </div>
+<section class="editar">
+    <form id="formAdicionar" action="">
+        <div class="secao1">
+            <div>
+                <div id="upload-form1">
+                    <input type="file" id="file-input" name="image">
                 </div>
-                <div>
-                    <form action="">
-                        <ul>
-                            <li><input type="text" placeholder="Nome do produto"></li>
-                            <li><input type="number" placeholder="Preço em R$"></li>
-                            <li><select name="select" >
-                                <option value="orquideas">Orquidea</option>
-                                <option value="Astromélia">Astromélia</option>
-                            </select></li>
-                        </ul>
-                    </form>
-                </div>
-                <div>
+                
             </div>
-        </div>
-        <div class="secao2">
-            <div id="upload-form2">
-                <input type="file" id="file-input" name="image">
+            <div>
+                
+                <section class="input-inicial">
+                    
+                    <input type="text" id="nomeProduto" placeholder="Nome do produto" required></li>
+                    <input type="number" id="precoProduto" placeholder="Preço em R$" min="0" required></li>
+                    <select id="categoriaProduto" name="select" required>
+                            <option value="orquideas">Orquidea</option>
+                            <option value="Astromélia">Astromélia</option>
+                    </select>
+
+                </section>
+                        
             </div>
+            <div>
         </div>
-        
-        <textarea name="" id="" cols="20" rows="10" placeholder="Descrição do seu iten"></textarea>
-        
-        <div class="secao3">
-            <input type="number" placeholder="Quantidade em estoque">
-            <button type="submit" class="Editar">Adicionar</button>
+    </div>
+    <div class="secao2">
+        <div id="upload-form2">
+            <input type="file" id="file-input" name="image">
         </div>
-        </form>
-    </section>
+    </div>
+
+    <textarea id="descricaoProduto" name="" cols="20" rows="10" placeholder="Descrição do seu item" required></textarea>
+    <div class="secao3">
+        <input type="number" id="quantidadeProduto" placeholder="Quantidade em estoque" min="0" required>
+        <button type="submit" class="Editar" id="submitButton" disabled>Adicionar</button>
+    </div>
+    </form>
+</section>
+
     <footer>
         <nav class="footer"><!-- Campo do footer-->
             <li>
@@ -72,7 +75,7 @@
 
         <link rel="stylesheet" href="../CSS/reset.css">
         <link rel="stylesheet" href="../CSS/adicionar_Produto.css">
-        <script src="../JS/editar_Produto.js" ></script>
+        <script src="../JS/adicionar_Produto.js" ></script>
 
     </footer>
 </body>
