@@ -31,7 +31,7 @@
                 <section class="input-inicial">
                     
                     <input type="text" id="nomeProduto" placeholder="Nome do produto" required></li>
-                    <input type="number" id="precoProduto" placeholder="Preço em R$" required></li>
+                    <input type="number" id="precoProduto" placeholder="Preço em R$" min="0" required></li>
                     <select id="categoriaProduto" name="select" required>
                             <option value="orquideas">Orquidea</option>
                             <option value="Astromélia">Astromélia</option>
@@ -51,7 +51,7 @@
 
     <textarea id="descricaoProduto" name="" cols="20" rows="10" placeholder="Descrição do seu item" required></textarea>
     <div class="secao3">
-        <input type="number" id="quantidadeProduto" placeholder="Quantidade em estoque" required>
+        <input type="number" id="quantidadeProduto" placeholder="Quantidade em estoque" min="0" required>
         <button type="submit" class="Editar" id="submitButton" disabled>Adicionar</button>
     </div>
     </form>
