@@ -21,9 +21,9 @@ carouselNext.addEventListener('click', () => {
 });
 function toggleCartButton(button) {
   var buttonText = button.getElementsByTagName('a')[0];
-  if (buttonText.innerHTML === '+ Adicionar ao carrinho') {
-    buttonText.innerHTML = '- Remover do carrinho';
+  if (buttonText.innerHTML === '+ Add to cart') {
+    buttonText.innerHTML = '- Remove from cart';
   } else {
-    buttonText.innerHTML = '+ Adicionar ao carrinho';
+    buttonText.innerHTML = '+ Add to cart';
   }
 }

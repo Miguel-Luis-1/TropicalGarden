@@ -33,7 +33,7 @@ nav>li>a {
   justify-content: center;
 }
 
-a {
+nav a {
   color: #fff;
 }
 
@@ -124,7 +124,7 @@ main{
     color: #fff;
 }
 .adiconar{
-    background-color: #F6F6F6;
+    background-color: #524545;
 }
 /* protudos */
 main h1{
